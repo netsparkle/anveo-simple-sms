@@ -54,6 +54,7 @@ if($emails) {
 		}
 
 		# curl command execution via curl php - works well:
+		//TO-DO make changes to this file to make it work with Anveo 
 		$ch = curl_init( $BulkvsSmsTransmitterUrl );
 		$payload = json_encode( array(	"apikey" => $BulkvsPersonalApiKey,
 						"apisecret" => $BulkvsPersonalApiSecret,
